@@ -1,0 +1,195 @@
+/* =============== BOOTSTRAP OVERRIDES =============== */
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(45deg, #6a0dad, #9370db);
+  border: none;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #dcdcdc;
+}
+
+/* Card */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/*  =============== GLOBAL STYLES =============== */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+.footbar {
+  background-color: #343a40;
+  color: white;
+  position: relative;
+}
+
+/* Button Styles */
+.btn-gradient-purple {
+  background: linear-gradient(45deg, #6a0dad, #9370db);
+  border: none;
+  color: white;
+  padding: 0.625rem 1.25rem;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.btn-gradient-purple:hover {
+  background: linear-gradient(45deg, #9370db, #6a0dad);
+  color: white;
+}
+
+.btn-theme-primary {
+  background-color: #008080;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-theme-primary:hover {
+  background-color: #006666;
+  color: white;
+}
+
+.btn-theme-secondary {
+  background-color: white;
+  color: #6a0dad;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-theme-secondary:hover {
+  background-color: #f0f0f0da;
+  color: #6a0dad;
+}
+
+/* Footer */
+.footbar {
+  background: linear-gradient(45deg, #6a0dad, #9370db);
+  border: none;
+}
+
+/*  =============== HOME PAGE =============== */
+
+/* Hero Section */
+.hero {
+  background-image: url("../img/docpat.jpg");
+  background-size: cover;
+  background-position: 50% 35%;
+  background-repeat: no-repeat;
+  color: #2e0662;
+  padding: 3.125rem;
+  text-align: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-heading {
+  color: white;
+  text-shadow: 0 2px 3px rgb(106, 49, 212);
+}
+
+.hero-subheading {
+  text-shadow: 0 2px 3px rgb(186, 152, 247);
+}
+
+.achievement-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.achievement-card:hover {
+  transform: scale(1.05);
+}
+
+.achievement-card h3 {
+  margin-bottom: 10px;
+}
+
+.achievement-card p {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+/*  =============== PATIENTS LIST PAGE (EHR) =============== */
+
+.patient-info-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patient-info-table th,
+.patient-info-table td {
+  padding: 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.sort-btn {
+  margin-left: 1rem;
+}
+
+/*  =============== PATIENT DETAILS PAGE (EHR) =============== */
+
+.patient-sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-right: 1px solid #e3e3e3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ehr-section {
+  border: 1px solid #e3e3e3;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+/*  =============== DOCTOR'S DASHBOARD =============== */
+.dashtext {
+  color: rgb(55, 7, 144);
+}
+
+.dashsubtext {
+  color: rgb(141, 79, 255);
+}
+
+.dashsubtext:hover {
+  color: rgb(36, 0, 108);
+}

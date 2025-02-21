@@ -1,0 +1,10 @@
+.subtitle-textarea {
+  resize: vertical;
+  overflow-y: scroll;
+  height: auto;
+  min-height: calc(1.5em * 4);
+}
+
+.patient-sidebar .d-flex {
+  margin-top: 1rem;
+}
